@@ -11,6 +11,14 @@ return [
     //     ]),
     //     'version' => '1.0.0',
     // ],
-    
+
+    'artist_credits_tracker' => [
+        'key' => 'artist_credits_tracker',
+        'wiki_key' => 'Artist_Credits_Tracker',
+        'creators' => json_encode([
+            'TornPages' => 'https://github.com/TornPages/',
+        ]),
+    'version' => '1.0.0',
+    ],
 
 ];
